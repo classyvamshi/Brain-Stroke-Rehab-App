@@ -1,83 +1,147 @@
-# Brain-Stroke-Rehabilitation-App
-A flutter based Android Application
-# <p align="center"><img src="README Images/Header.gif" alt="JARVIS" width="100%"/></a></p>
+Reneuw: An AI-Powered Brain Stroke Rehabilitation Application
+A Flutter-based Mobile Health (mHealth) Application for Stroke Rehabilitation
+📌 Introduction
+Reneuw – Rewiring Minds, Restoring Lives – is a cross-platform mobile health (mHealth) application built using Flutter, designed to support stroke survivors in their cognitive, physical, emotional, and lifestyle rehabilitation. Deployable on both Android and iOS, Reneuw offers a comprehensive ecosystem with features like health tracking, cognitive games, a voice-enabled AI chatbot, guided meditation, and MRI-based stroke prediction. Powered by a FastAPI backend and MongoDB Atlas for scalable data storage, it integrates cutting-edge AI technologies to provide personalized, home-based care for post-stroke recovery.
+Key features include:
+
+Health Monitoring: Tracks water intake, meal nutrients, and body measurements (BMI, BMR, caloric needs).
+Cognitive Training: Offers games like Chess, Snakes and Ladders, and Memory Match.
+Mental Wellness: Includes self-assessment for depression risk and guided meditation/yoga routines.
+AI Chatbot: Supports text and voice interaction using LangChain and Gemini 1.5 for speech-to-text.
+Stroke Prediction: Uses a VGG-19 deep learning model to classify ischemic and hemorrhagic strokes from MRI scans with 94% accuracy.
+News Feed: Delivers daily articles via a News API to promote cognitive engagement.
+
+Reneuw aims to bridge the gap between clinical rehabilitation and home-based care, empowering stroke survivors with an accessible, scalable, and user-centric digital health solution.
+🏁 Tech Stack Used
+
+Flutter: For cross-platform mobile app development.
+FastAPI: For high-performance backend API services.
+MongoDB Atlas: For scalable, cloud-based NoSQL data storage.
+Firebase: For secure user authentication (email and Google Sign-In).
+LangChain: For orchestrating the AI chatbot’s large language model interactions.
+TensorFlow/Keras: For the VGG-19 deep learning model used in stroke prediction.
+
+📦 APIs and Services Used
+
+Gemini 1.5 API: For speech-to-text conversion in the AI chatbot.
+News API: For fetching daily health and rehabilitation-related articles.
+Pre-trained VGG-19 Model: Fine-tuned for MRI-based stroke classification.
+
+🏃‍♂️ Getting Started
+Follow these instructions to set up and run Reneuw on your local machine for development and testing.
+📋 Prerequisites
+
+Flutter SDK: Ensure Flutter is installed and configured.
+Android Studio or Xcode: For Android/iOS emulation or physical device testing.
+Git: For cloning the repository.
+Python: For running the FastAPI backend.
+A MongoDB Atlas account and Firebase project for backend and authentication setup.
+
+🧱 Setting Up Your Development Environment
+
+Clone the Repository:
+git clone https://github.com/YOUR-USERNAME/Reneuw.git
+
+Replace YOUR-USERNAME with your GitHub username or the repository URL.
+
+Set Up the Flutter Frontend:
+
+Open the cloned project in your preferred IDE (e.g., VS Code, Android Studio).
+
+Navigate to the project root and install dependencies:
+flutter pub get
 
 
-## 📌 Introduction 
-Relive is a cross-platform application that can be used both in Android/IOS and it is made using Flutter. It aims to solve the mental health issues of a person. The app includes everything you need in a single place so that you don’t have to use multiple apps to carry out tasks like monitoring health, appointment seeking, and organizing appointments. It is a single app that has two dashboards for the User and Doctor.
 
-## 🏁 Tech Stack Used 
 
-- [Flutter](https://flutter.dev/)
-- [Firebase](https://firebase.google.com/)
+Configure Firebase:
 
-## 📦 API Used 
-- [Nutritionix API](https://www.nutritionix.com/)
+Create a Firebase project at console.firebase.google.com.
+Add an Android/iOS app to your Firebase project and download the google-services.json (Android) or GoogleService-Info.plist (iOS) file.
+Place these files in the appropriate directories (android/app/ for Android, ios/Runner/ for iOS).
+Enable Firebase Authentication (Email/Password and Google Sign-In) in the Firebase console.
 
-## 🏃‍️ Getting Started
 
-- These instructions will get you a copy of the project up and be running on your local machine for development and testing purposes.
+Set Up the FastAPI Backend:
 
-## 📋 Prerequisites
+Navigate to the backend directory (e.g., backend/ if included in the repo).
 
--  [Android Studio](https://developer.android.com/studio), with a recent version of the Android SDK.
+Install Python dependencies:
+pip install -r requirements.txt
 
-## 🧱 Setting up your development environment
 
-1. Download and install Git.
-2. Fork the [Mental Health project](https://gitlab.com/amfoss/mentel-health)
-3. Clone your fork of the project locally. At the command line:
-            
-   ```
-   $ git clone https://gitlab.com/YOUR-GITLAB-USERNAME/mental-health.git
-   ```
+Create a .env file in the backend directory with the following variables:
+MONGODB_URI=your_mongodb_atlas_connection_string
+GEMINI_API_KEY=your_gemini_api_key
+NEWS_API_KEY=your_news_api_key
 
-4. Open your code favourite editor (VS Code, Android Studio etc)
-5. Click on 'Open an Existing Project'
-6. Browse to the directory where you cloned the repo and click OK
-7. Let your code editor import the project
-8. Before installing the dependencies, make sure you have to create ```.env``` in the root folder with the following variables:
-    
-    > **API_ID** = ```YOUR_Nutritionix_API_ID```
 
-    > **API_KEY** = ```YOUR_Nutritionix_API_KEY```
+Run the FastAPI server:
+uvicorn main:app --reload
 
-9. To install the dependencies run the following command in the terminal.
 
-    ```
-    $ flutter pub get
-    ```
-10. Connect your Android/IOS emulator or your mobile device to your computer.
-11. Build the application in your device by clicking **Run** <img src="https://www.iconsdb.com/icons/preview/green/play-xxl.png" alt="JARVIS" width="2%"/> button or run the following in terminal.
-    ```
-    $ flutter run
-    ```
-## 👀 Application Preview
-<p align="center"><img src="README Images/Regestration.png" alt="JARVIS" width="75%"/></a></p><p align="center"><img src="README Images/homePage.gif" alt="JARVIS" width="75%"/></a></p><p align="center"><img src="README Images/Meals.png" alt="JARVIS" width="75%"/></a></p><p align="center"><img src="README Images/foodTarget.gif" alt="JARVIS" width="75%"/></a></p><p align="center"><img src="README Images/addItems.png" alt="JARVIS" width="75%"/></a></p><p align="center"><img src="README Images/Body Measurment.png" alt="JARVIS" width="75%"/></a></p><p align="center"><img src="README Images/watertaken.gif" alt="JARVIS" width="75%"/></a></p><p align="center"><img src="README Images/traninig.gif" alt="JARVIS" width="75%"/></a></p><p align="center"><img src="README Images/doctorAppointment.gif" alt="JARVIS" width="75%"/></a></p>
 
-## 📝 Why this Project?
-The lockdown has rendered us almost immobile and stuck to a chair. The mental health of the population, rich and poor alike has hit pathetic lows during this unforeseen pandemic. It is noticed that people turn out to be more anxious and stressed when confined to the four walls of their houses. It has been experienced that people working from home miss out on basic stuff like drinking water and having nutritious food. To take some time off the screen, and to be physically as well as mentally fit, yoga is proven to be a very good choice. So to solve these issues we came up with the idea of Relive. We focused on building some useful trackers, such as Food, Water, Body Measurement, and also building a platform to consult with a doctor regarding any mental health/any other health issues so that the seeker can get the help they need without being judged as the app includes a feature to be anonymous while seeking help from a doctor. Human beings being social creatures have lost all the chances of being social these days, which also brings up issues like loneliness and depression. People who are working from home and the students face a lot of stress due to the deadlines and obviously, people need a break. Since people are forced to stay inside the house, people also find it difficult to get help from doctors as going to hospitals is riskier as they get exposed to a hostile environment, and having more patients in the hospitals makes the situation worse. 
-    
-## 🏃‍️ How we came to solve this problem?
-Taking all these concerns into account, most people prefer to have some sort of support for their mental wellbeing. This is where the idea of RELIVE (a mental-health monitoring/help provider app) comes into play. In society, especially in India, usually, mental health issues are either ignored or at times laughed at due to society’s judgemental mindset about mental health problems. Having an application where you can get the solutions to all of your problems and open up without the fear of being misjudged by society is our prime aim. It’s not just mental health, we also focus on the physical health of a person as physical health also plays a major role in the quality of mental health. So, we have also included nutrition monitoring features in the app. Usually, when a person is down, they ignore their nutrition balance and healthy diet. The app includes some meditation and exercise suggestions based on the trend of the user activity features as these come as a handy tool when it comes to mental health solutions. 
-Using an app as a common platform to treat patients will also be helpful for a doctor as everything will be just a click away. They don’t have to get in physical contact with people as if not careful, doctors or the patients can act as carriers for certain diseases. Hence, contacting patients over an app solves the majority of the problems while remaining safe.
 
-## 🛠 Try it out
-            
-You can also try it out live over on [Appetize.io](https://appetize.io/app/yb7gkuq2rm8eg3yn37qqu3ba1r). 
+Configure MongoDB Atlas:
 
-## 🎓 Resouces 
-            
-A few resources to get you started if this is your first Flutter project:
+Set up a MongoDB Atlas cluster and obtain the connection URI.
+Update the .env file with the MongoDB URI.
 
-- [Lab: Write your first Flutter app](https://flutter.dev/docs/get-started/codelab)
-- [Cookbook: Useful Flutter samples](https://flutter.dev/docs/cookbook)
 
-For help getting started with Flutter, view the [online documentation](https://flutter.dev/docs), which offers tutorials,
-samples, guidance on mobile development, and a full API reference.
-            
-## ✨ Team Reneuw
-1.Alajangi Venkata Satya
-2.K N Lakshmi
-3.K Hemavardhan Reddy
-4.K Vamshidhar Reddy
+Run the Application:
+
+Connect an Android/iOS emulator or physical device.
+
+Build and run the Flutter app:
+flutter run
+
+
+Alternatively, use the Run button in your IDE.
+
+
+
+
+👀 Application Preview
+Note: Replace README_Images/ with the actual path to your image assets once created.
+📝 Why This Project?
+Stroke remains a leading cause of long-term disability worldwide, affecting millions annually. Survivors often face prolonged recovery requiring sustained cognitive, physical, and emotional rehabilitation, which is typically confined to clinical settings. These settings can be inaccessible due to logistical, financial, or geographical barriers, leaving many patients without adequate support. The rise of mobile health (mHealth) solutions offers a promising avenue for home-based, personalized care, yet existing apps often lack comprehensive, integrated features tailored for stroke rehabilitation.
+Reneuw addresses these challenges by providing an all-in-one platform that empowers stroke survivors to manage their recovery from home. It combines health tracking, cognitive exercises, mental wellness tools, and AI-driven diagnostics to create a holistic rehabilitation ecosystem. Features like the voice-enabled chatbot cater to users with speech impairments, while the MRI-based stroke prediction module enables early detection, particularly in underserved areas. By leveraging modern technologies, Reneuw aims to democratize access to quality rehabilitation and improve patient outcomes.
+🏃‍♂️ How We Solved This Problem
+Reneuw was designed with a user-centric approach to address the multifaceted needs of stroke survivors:
+
+Physical Health: Tracks hydration, nutrition, and body metrics to promote healthy lifestyles and manage stroke risk factors like obesity and hypertension.
+Cognitive Rehabilitation: Offers gamified exercises (e.g., Memory Match, Chess) to combat post-stroke cognitive decline and enhance mental agility.
+Emotional Wellness: Includes depression risk assessments and guided meditation/yoga to support mental health, reducing isolation and stress.
+Accessibility: The AI chatbot’s voice-to-text feature ensures inclusivity for users with speech or motor impairments, while the intuitive Flutter UI caters to elderly users.
+Predictive Diagnostics: The VGG-19 model provides 94% accurate stroke classification from MRI scans, enabling timely interventions in areas with limited access to specialists.
+Scalable Data Management: MongoDB Atlas and FastAPI ensure secure, real-time data storage and retrieval, supporting longitudinal health monitoring.
+
+By integrating these features into a single app, Reneuw eliminates the need for multiple tools, offering a seamless, engaging, and effective rehabilitation experience.
+🛠 Try It Out
+You can try a live demo of Reneuw on Appetize.io (update with actual link once hosted) or build it locally using the setup instructions above.
+🎓 Resources
+New to Flutter? Here are some resources to get started:
+
+Write Your First Flutter App
+Flutter Cookbook: Useful Samples
+Flutter Documentation: Tutorials, samples, and API references.
+
+For backend development:
+
+FastAPI Documentation
+MongoDB Atlas Getting Started
+
+✨ Team Reneuw
+
+K N Lakshmi
+Alajangi Venkata Satya
+K Hemavardhan Reddy
+K V Vamshidhar Reddy
+DR. Keerthika T
+
+📜 License
+This project is licensed under the MIT License – see the LICENSE file for details.
+🙌 Contributing
+We welcome contributions! Please read our Contributing Guidelines and submit pull requests to enhance Reneuw’s features or fix issues.
+
+Built with 💙 by Team Reneuw at Amrita School of Artificial Intelligence, Amrita Vishwa Vidyapeetham.
