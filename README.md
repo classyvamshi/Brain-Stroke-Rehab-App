@@ -16,6 +16,7 @@ Stroke Prediction: Utilizes a fine-tuned VGG-19 model to classify ischemic and h
 News Feed: Fetches daily health articles via a News API to promote cognitive engagement.
 
 Reneuw leverages a FastAPI backend and MongoDB Atlas for scalable data management, ensuring secure, real-time health tracking and a seamless user experience.
+
 🏁 Tech Stack Used
 
 Flutter: Cross-platform mobile app development.
@@ -33,6 +34,7 @@ Pre-trained VGG-19 Model: Fine-tuned for MRI-based stroke classification.
 
 🏃‍♂️ Getting Started
 These instructions will help you set up and run Reneuw on your local machine for development and testing.
+
 📋 Prerequisites
 
 Flutter SDK with a recent version.
@@ -116,9 +118,12 @@ Click the Run  button in your IDE or use:flutter run
 
 
 📝 Why This Project?
+
 Stroke is a leading cause of long-term disability globally, affecting millions each year. Survivors often require extensive rehabilitation to regain cognitive, physical, and emotional function, but traditional clinical care is frequently inaccessible due to logistical, financial, or geographical constraints. Existing mobile health solutions lack the comprehensive, integrated approach needed for effective post-stroke recovery, particularly for users with speech or motor impairments.
 Reneuw addresses these gaps by offering an all-in-one platform that empowers stroke survivors to manage their rehabilitation from home. By combining health tracking, cognitive exercises, mental wellness tools, and AI-driven diagnostics, it provides a holistic, user-centric solution. The app’s accessibility features, like voice-enabled interaction, cater to diverse needs, while its scalable architecture supports future enhancements like teleconsultation and wearable integration.
+
 🏃‍♂️ How We Came to Solve This Problem?
+
 Recognizing the challenges of post-stroke recovery, we developed Reneuw to deliver personalized, inclusive, and technology-driven rehabilitation:
 
 Comprehensive Care: Tracks hydration, nutrition, and body metrics to manage stroke risk factors, while cognitive games and news articles stimulate mental engagement.
@@ -128,9 +133,12 @@ Emotional Support: Depression risk assessments and guided meditation/yoga promot
 Scalable Infrastructure: FastAPI and MongoDB ensure secure, real-time data management, enabling longitudinal health tracking and personalized recommendations.
 
 Reneuw integrates these features into a single, seamless app, reducing the need for multiple tools and fostering consistent engagement in the recovery process.
+
 🛠 Try It Out
+
 Try Reneuw live on Appetize.io (update with actual link once hosted).
 🎓 Resources
+
 New to Flutter or backend development? Start here:
 
 Lab: Write Your First Flutter App
@@ -140,7 +148,8 @@ FastAPI Documentation
 MongoDB Atlas Getting Started
 
 ✨ Team Reneuw
-Thanks to these wonderful contributors (emoji key):
+
+Thanks to these wonderful contributors :
 
 
     Alajangi Venkata Satya💻 📖 🤔 
@@ -151,9 +160,8 @@ Thanks to these wonderful contributors (emoji key):
   
 
 
-📜 License
-This project is licensed under the MIT License – see the LICENSE file for details.
 🙌 Contributing
+
 We welcome contributions! Please read our Contributing Guidelines and submit pull requests to enhance Reneuw’s features or fix issues.
 
 Built with 💙 by Team Reneuw at Amrita School of Artificial Intelligence, Amrita Vishwa Vidyapeetham.
