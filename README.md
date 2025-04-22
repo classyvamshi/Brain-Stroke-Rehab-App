@@ -2,9 +2,6 @@
 A flutter based Android Application
 # <p align="center"><img src="README Images/Header.gif" alt="JARVIS" width="100%"/></a></p>
 
-[![pipeline status](https://gitlab.com/amfoss/amfoss/mental-health/badges/main/pipeline.svg)](https://gitlab.com/amfoss/amfoss/mental-health/-/commits/main)
-
-![BuiltFlutter](https://img.shields.io/badge/Flutter-%2302569B.svg?style=for-the-badge&logo=Flutter&logoColor=white)
 
 ## 📌 Introduction 
 Relive is a cross-platform application that can be used both in Android/IOS and it is made using Flutter. It aims to solve the mental health issues of a person. The app includes everything you need in a single place so that you don’t have to use multiple apps to carry out tasks like monitoring health, appointment seeking, and organizing appointments. It is a single app that has two dashboards for the User and Doctor.
@@ -79,15 +76,8 @@ A few resources to get you started if this is your first Flutter project:
 For help getting started with Flutter, view the [online documentation](https://flutter.dev/docs), which offers tutorials,
 samples, guidance on mobile development, and a full API reference.
             
-## ✨ Team Relive 
-
-Thanks goes to these wonderful people ([emoji key](https://allcontributors.org/docs/en/emoji-key)):
-
-<!-- ALL-CONTRIBUTORS-LIST:START - Do not remove or modify this section -->
-<!-- prettier-ignore-start -->
-<!-- markdownlint-disable -->
-
-<!-- markdownlint-enable -->
-<!-- prettier-ignore-end -->
-
-<!-- ALL-CONTRIBUTORS-LIST:END -->
+## ✨ Team Reneuw
+1.Alajangi Venkata Satya
+2.K N Lakshmi
+3.K Hemavardhan Reddy
+4.K Vamshidhar Reddy
