@@ -86,16 +86,6 @@ Thanks goes to these wonderful people ([emoji key](https://allcontributors.org/d
 <!-- ALL-CONTRIBUTORS-LIST:START - Do not remove or modify this section -->
 <!-- prettier-ignore-start -->
 <!-- markdownlint-disable -->
-<table>
-  <tr>
-    <td align="center"><a href="https://github.com/Akshatji800"><img src="https://avatars.githubusercontent.com/u/73401649?s=400&u=39e3769578c18ed0490372fa16dfd9259f1c78f4&v=4" width="100px;" alt=""/><br /><sub><b>Akshat Tripathi</b></sub></a><br /><a href="https://gitlab.com/amfoss/amfoss/mental-health/commits?author=Akshatji800" title="Documentation">📖</a> <a href="https://gitlab.com/amfoss/amfoss/mental-health/commits?author=Akshatji800" title="Code">💻</a> <a href="#ideas-Akshatji800" title="Ideas, Planning, & Feedback">🤔</a></td>
-    <td align="center"><a href="https://bolisettysujith.rocks"><img src="https://avatars.githubusercontent.com/u/73323807?s=400&u=e38ff58c3c6ecaeddaa14544987dbfa73f80e471&v=4" width="100px;" alt=""/><br /><sub><b>Bolisetty Sujith</b></sub></a><br /><a href="https://gitlab.com/amfoss/amfoss/mental-health/commits?author=bsujith116" title="Documentation">📖</a> <a href="https://gitlab.com/amfoss/amfoss/mental-health/commits?author=bsujith116" title="Code">💻</a> <a href="#ideas-bsujith116" title="Ideas, Planning, & Feedback">🤔</a></td>
-    <td align="center"><a href="https://github.com/lakshmi-warrier"><img src="https://avatars.githubusercontent.com/u/73262131?v=4" width="100px;" alt=""/><br /><sub><b>Lakshmi Warrier</b></sub></a><br /><a href="https://gitlab.com/amfoss/amfoss/mental-health/commits?author=Lakshmi-Warrier" title="Code">💻</a> <a href="#ideas-Lakshmi-Warrier" title="Documentation">📖</a> <a href="#ideas-Lakshmi-Warrier"  title="Ideas, Planning, & Feedback">🤔</a></td>
-    <td align="center"><a href="https://www.linkedin.com/in/r-adithya-kumar/"><img src="https://avatars.githubusercontent.com/u/73246484?s=400&u=fb905b798f809aa233a9a9b062ad7131acd5037e&v=4" width="100px;" alt=""/><br /><sub><b>Adithya Kumar</b></sub></a><br /><a href="https://gitlab.com/amfoss/amfoss/mental-health/commits?author=SilentCruzer" title="Code">💻</a> <a href="#ideas-SilentCruzer" title="Documentation">📖</a> <a href="#ideas-SilentCruzer"  title="Ideas, Planning, & Feedback">🤔</a></td>
-    <td align="center"><a href="https://iamsh4shank.github.io/"><img src="https://avatars.githubusercontent.com/u/52889867?v=4" width="100px;" alt=""/><br /><sub><b>Shashank Priyadarshi</b></sub></a><br /><a href="https://gitlab.com/amfoss/amfoss/mental-health/commits?author=iamsh4shank" title="Documentation">📖</a>  <a href="#ideas-iamsh4shank"  title="Mentor">🧑‍</a><a href="#ideas-iamsh4shank"  title="Ideas, Planning, & Feedback">🤔</a></td>
-    <td align="center"><a href="https://yashk2000.github.io/"><img src="https://avatars3.githubusercontent.com/u/41234408?v=4" width="100px;" alt=""/><br /><sub><b>Yash Khare</b></sub></a><br /><a href="https://gitlab.com/amfoss/amfoss/mental-health/commits?author=yashk2000" title="Mentor">🧑‍</a><a href="#ideas-yashk2000"  title="Ideas, Planning, & Feedback">🤔</a></td>
-  </tr>
-</table>
 
 <!-- markdownlint-enable -->
 <!-- prettier-ignore-end -->
