@@ -1,0 +1,79 @@
+name: my_app
+description: "A new Flutter project."
+publish_to: 'none'
+version: 0.1.0
+
+environment:
+  sdk: ^3.7.0
+
+dependencies:
+  flutter:
+    sdk: flutter
+  firebase_core: ^3.12.0
+  firebase_auth: ^5.5.0
+  google_sign_in: ^6.2.2
+  url_launcher: ^6.3.1
+  http: ^1.3.0
+  intl: ^0.20.2
+  font_awesome_flutter: ^10.8.0
+  flare_flutter: ^3.0.2
+  flutter_flip_card: ^0.0.6
+  flip_card: ^0.7.0
+  cloud_firestore: ^5.6.4
+  permission_handler: ^11.4.0
+  percent_indicator: ^4.2.4
+  health: ^12.0.1
+  liquid_progress_indicator_v2: ^0.5.0
+  provider: ^6.1.2
+  shared_preferences: ^2.5.2
+  carousel_slider: ^5.0.0
+  fl_chart: ^0.70.2
+  speech_to_text: ^7.0.0
+  flutter_sound: ^9.26.0
+  mime: ^2.0.0
+  audioplayers: ^6.4.0
+  record: ^5.2.1
+  path_provider: ^2.1.5
+  mongo_dart: ^0.10.4
+  tflite_flutter: ^0.11.0
+  image_picker: ^1.1.2
+  file_picker: ^10.0.0
+  image: ^4.5.4
+  
+  
+  
+
+
+dev_dependencies:
+  flutter_test:
+    sdk: flutter
+  flutter_lints: ^5.0.0
+
+flutter:
+  uses-material-design: true
+  assets:
+    - lib/images/Google.jpeg
+    - lib/images/Apple.jpeg
+    - lib/images/image_1.png
+    - lib/images/image_2.png
+    - lib/images/image_3.png
+    - lib/images/image_4.png
+    - lib/images/image_5.png
+    - lib/images/image_6.png
+    - lib/images/image_7.png
+    - lib/images/image_8.png
+    - lib/images/image_cover.jpg
+    - lib/images/pose1.png
+    - lib/images/pose2.png
+    - lib/images/pose3.png
+    - lib/images/course1.jpg
+    - lib/images/course2.jpg
+    - lib/images/course3.jpg
+    - lib/images/course4.jpg
+    - lib/images/course5.jpg
+    - lib/models/vgg19_stroke_model.tflite
+
+
+
+
+
