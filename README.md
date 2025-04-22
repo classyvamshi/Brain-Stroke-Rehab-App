@@ -106,8 +106,10 @@ Click the Run  button in your IDE or use:flutter run
 
 
 👀 Application Preview
+1.
+![login](https://github.com/user-attachments/assets/944839c2-2a81-45a2-8cc4-ef22229d065e)
+2.
 
-![login](https://github.com/user-attachments/assets/06c99b4e-31df-4426-a6df-4a5fa4e556ba)
 
 
 
