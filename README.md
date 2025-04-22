@@ -3,7 +3,7 @@ A Flutter-based Mobile Health (mHealth) Application for Stroke Rehabilitation
 
 
 
-##📌 Introduction
+📌 Introduction
 
 Reneuw – Rewiring Minds, Restoring Lives – is a cross-platform mobile health (mHealth) application developed using Flutter, designed to empower stroke survivors with comprehensive cognitive, physical, emotional, and lifestyle rehabilitation tools. Available for both Android and iOS, Reneuw integrates advanced AI technologies, including a voice-enabled chatbot, MRI-based stroke prediction, and gamified cognitive exercises, to provide personalized, home-based care.
 Key Features:
