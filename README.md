@@ -141,16 +141,6 @@ Click the Run  button in your IDE or use:flutter run
 
 
 
-
-
-
-
-
-
-
-
-
-
 📝 Why This Project?
 
 Stroke is a leading cause of long-term disability globally, affecting millions each year. Survivors often require extensive rehabilitation to regain cognitive, physical, and emotional function, but traditional clinical care is frequently inaccessible due to logistical, financial, or geographical constraints. Existing mobile health solutions lack the comprehensive, integrated approach needed for effective post-stroke recovery, particularly for users with speech or motor impairments.
@@ -171,15 +161,20 @@ Reneuw integrates these features into a single, seamless app, reducing the need 
 🛠 Try It Out
 
 Try Reneuw live on Appetize.io (update with actual link once hosted).
+
 🎓 Resources
 
 New to Flutter or backend development? Start here:
 
-Lab: Write Your First Flutter App
-Cookbook: Useful Flutter Samples
-Flutter Documentation: Tutorials, samples, and API references
-FastAPI Documentation
-MongoDB Atlas Getting Started
+Lab: [Write Your First Flutter App](https://docs.flutter.dev/get-started/codelab)
+
+Cookbook: [Useful Flutter Samples](https://flutter.github.io/samples/#)
+
+Flutter Documentation: [Tutorials, samples, and API references](https://docs.flutter.dev/)
+
+FastAPI Documentation:https://fastapi.tiangolo.com/
+
+MongoDB Atlas Getting Started:https://learn.mongodb.com/?utm_source=google&utm_campaign=search_gs_pl_evergreen_atlas_general_retarget-brand_gic-null_apac-in_ps-all_desktop_eng_lead&utm_term=mongodb%20atlas%20database&utm_medium=cpc_paid_search&utm_ad=p&utm_ad_campaign_id=22194044286&adgroup=174717488619&cq_cmp=22194044286&gad_source=1&gbraid=0AAAAADQ14006-fCp8P5uoG9KaxT5GPP0g&gclid=Cj0KCQjw_JzABhC2ARIsAPe3ynpvK3Nj37VTAdG0fghpMHHi3T8oHgq1H4Ty-Hf5chRIw5mpbvTI4vwaAu1rEALw_wcB
 
 ✨ Team Reneuw
 
