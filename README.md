@@ -1,7 +1,8 @@
 Reneuw: An AI-Powered Brain Stroke Rehabilitation Application
 A Flutter-based Mobile Health (mHealth) Application for Stroke Rehabilitation
 
-
+🧠 Remember :
+The project, totaling 4.4GB, cannot be fully uploaded due to size limitations. Even with Git LFS, discrepancies persist, so the model and TFLite files are excluded from the repository. All remaining code files are stored in the `lib` and `pages` folders, including MongoDB and Voice API backend code located in the `pages` folder.
 
 📌 Introduction
 
@@ -20,11 +21,34 @@ Reneuw leverages a FastAPI backend and MongoDB Atlas for scalable data managemen
 🏁 Tech Stack Used
 
 Flutter: Cross-platform mobile app development.
+
 FastAPI: High-performance backend API framework.
+
 MongoDB Atlas: Cloud-based NoSQL database.
+
 Firebase: Secure user authentication (email and Google Sign-In).
+
 LangChain: Orchestrates large language model interactions for the chatbot.
+
 TensorFlow/Keras: Powers the VGG-19 model for stroke prediction.
+
+🏛️ Architecture / Flow Diagram
+
+![Screenshot 2025-04-23 111736](https://github.com/user-attachments/assets/ab32fe50-27b9-4da7-9249-7dcdd539746a)
+
+🤖 Chabot Architecture 
+
+We offer two types of chatbots:
+
+🤖💬 Text-to-Text Chatbot for text-based conversations.
+
+![image](https://github.com/user-attachments/assets/217c9225-8e5c-4c38-81ac-e7d6835f256c)
+
+🎙️📝 Voice-to-Text Chatbot for voice input converted to text.
+
+![image](https://github.com/user-attachments/assets/e2dbac1f-6b28-4af7-a92f-a61716f741da)
+
+
 
 📦 APIs Used
 
@@ -109,8 +133,10 @@ Click the Run  button in your IDE or use:flutter run
 
 ![login](https://github.com/user-attachments/assets/944839c2-2a81-45a2-8cc4-ef22229d065e)
 ![2](https://github.com/user-attachments/assets/ea3a235d-a61c-44fa-8751-a24eeb4f993a)
+![Screenshot 2025-04-23 111333](https://github.com/user-attachments/assets/4ab08ae8-c85a-4590-9237-0bb9a56451a1)
 ![3](https://github.com/user-attachments/assets/df6cf845-07ed-413c-860b-df28e550922d)
 ![image](https://github.com/user-attachments/assets/b92c65ed-44f0-47ff-9bec-47f5a06013e9)
+
 
 
 
