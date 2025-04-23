@@ -158,9 +158,6 @@ Scalable Infrastructure: FastAPI and MongoDB ensure secure, real-time data manag
 
 Reneuw integrates these features into a single, seamless app, reducing the need for multiple tools and fostering consistent engagement in the recovery process.
 
-🛠 Try It Out
-
-Try Reneuw live on Appetize.io (update with actual link once hosted).
 
 🎓 Resources
 
