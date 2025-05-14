@@ -93,7 +93,7 @@ Select "Open an Existing Project" and navigate to the cloned Reneuw directory.
 - Set Up Firebase:
 
 Create a Firebase project at console.firebase.google.com.
-Add an Android/iOS app and download google-services.json (Android) or GoogleService-Info.plist (iOS).
+Add an Android/ios app and download google-services.json (Android) or GoogleService-Info.plist (iOS).
 Place these files in android/app/ (Android) or ios/Runner/ (iOS).
 Enable Email/Password and Google Sign-In in Firebase Authentication.
 
